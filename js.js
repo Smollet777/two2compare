@@ -14,11 +14,11 @@ function switchAudio(state){
   if(state){
     H.style.color = 'rgb(227, 11, 93)'
     H.innerText = 'version 1.5'
-    audio.src = '/v15.mp3'
+    audio.src = './v15.mp3'
   }else{
     H.style.color = 'rgb(0, 0, 0)'
     H.innerText = 'version 1.0'
-    audio.src = '/v10.mp3'
+    audio.src = './v10.mp3'
   }
   
   btnState = !btnState;
